@@ -1,0 +1,10 @@
+{"id": 1, "name": "Alice Johnson", "age": 28, "email": "alice@example.com", "active": true}
+{"id": 2, "name": "Bob Smith", "age": 35, "email": "bob@example.com", "active": false}
+{"id": 3, "name": "Carol Davis", "age": 42, "email": "carol@example.com", "active": true, "department": "Engineering"}
+{"timestamp": "2024-01-15T10:30:00Z", "level": "INFO", "message": "User login successful", "user_id": 123, "ip": "192.168.1.100"}
+{"timestamp": "2024-01-15T10:31:45Z", "level": "WARNING", "message": "Failed login attempt", "user_id": null, "ip": "192.168.1.200", "attempts": 3}
+{"product": "Laptop", "price": 999.99, "currency": "USD", "in_stock": true, "tags": ["electronics", "computers", "portable"]}
+{"product": "Mouse", "price": 29.99, "currency": "USD", "in_stock": false, "tags": ["electronics", "accessories"], "specifications": {"dpi": 1600, "wireless": true}}
+{"user": {"id": 456, "profile": {"name": "David Wilson", "preferences": {"theme": "dark", "notifications": true}}}, "session": {"created_at": "2024-01-15T09:15:00Z", "expires_at": "2024-01-15T17:15:00Z"}}
+{"event": "purchase", "amount": 129.99, "items": [{"name": "Book", "quantity": 2}, {"name": "Pen", "quantity": 5}], "customer": {"id": 789, "loyalty_level": "gold"}}
+{"error": true, "code": 500, "message": "Internal server error", "details": {"stack_trace": "Error at line 42...", "request_id": "req_abc123"}, "timestamp": 1705312345}

@@ -1,0 +1,17 @@
+# Operating System Files
+.DS_Store
+.DS_Store?
+
+# Node modules (in case any development tools are added)
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Rust build artifacts (if any Rust code is added later)
+target/
+Cargo.lock
+
+# Zed-specific
+.zed/
+grammars/

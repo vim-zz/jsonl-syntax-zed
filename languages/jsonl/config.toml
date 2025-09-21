@@ -1,0 +1,5 @@
+name = "JSON Lines"
+grammar = "json"
+path_suffixes = ["jsonl", "ndjson"]
+tab_size = 2
+hard_tabs = false

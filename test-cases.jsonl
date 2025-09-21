@@ -1,0 +1,30 @@
+{"id": 1, "name": "Simple Object", "active": true}
+{"id": 2, "name": "With Null", "value": null, "score": 85.5}
+{"simple_array": [1, 2, 3, 4, 5]}
+{"mixed_array": ["string", 42, true, null, {"nested": "object"}]}
+{}
+[]
+{"empty_object": {}, "empty_array": []}
+{"nested": {"deeply": {"nested": {"object": {"with": "value"}}}}}
+{"string_with_escapes": "Hello \"world\"\n\tThis has\ttabs and\nnewlines\\backslash"}
+{"unicode": "Unicode: 🚀 rocket ⭐ star 中文 Chinese ñoño español"}
+{"numbers": {"integer": 42, "negative": -17, "float": 3.14159, "scientific": 1.23e-4, "zero": 0}}
+{"booleans": {"true": true, "false": false}}
+{"url": "https://api.example.com/v1/users?filter=active&sort=name", "method": "GET"}
+{"log_entry": {"timestamp": "2024-01-15T14:30:00.123Z", "level": "INFO", "message": "User authentication successful", "user_id": 12345, "session": "sess_abc123xyz", "ip": "192.168.1.100", "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"}}
+{"log_entry": {"timestamp": "2024-01-15T14:30:15.456Z", "level": "ERROR", "message": "Database connection failed", "error_code": 500, "retry_count": 3, "database": "primary", "query_time_ms": 5000}}
+{"product": {"id": "prod_001", "name": "Gaming Laptop", "price": {"amount": 1299.99, "currency": "USD"}, "specs": {"cpu": "Intel i7", "ram": "16GB", "storage": "1TB SSD"}, "tags": ["gaming", "laptop", "high-performance"], "availability": {"in_stock": true, "quantity": 25, "locations": ["warehouse_1", "warehouse_3"]}}}
+{"api_response": {"status": 200, "data": {"users": [{"id": 1, "name": "Alice"}, {"id": 2, "name": "Bob"}]}, "meta": {"total": 2, "page": 1, "per_page": 10}}}
+{"metrics": {"cpu_usage": 75.2, "memory_usage": 68.8, "disk_usage": 45.1, "network_in": 1024.5, "network_out": 512.25, "response_times": [12, 15, 18, 22, 14, 16, 19]}}
+{"event": {"type": "user_signup", "user": {"email": "new.user@example.com", "name": "New User", "preferences": {"newsletter": true, "notifications": false}}, "metadata": {"source": "organic", "campaign": null, "referrer": "https://google.com"}}}
+{"large_text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."}
+{"configuration": {"database": {"host": "localhost", "port": 5432, "name": "myapp", "ssl": true}, "cache": {"type": "redis", "ttl": 3600}, "features": {"dark_mode": true, "analytics": false, "beta_features": ["feature_a", "feature_b"]}}}
+{"financial": {"transaction_id": "txn_987654321", "amount": -45.67, "type": "debit", "account": {"number": "****1234", "type": "checking"}, "merchant": {"name": "Coffee Shop", "category": "food_beverage", "location": {"lat": 40.7128, "lng": -74.0060}}}}
+{"sensor_data": {"device_id": "sensor_001", "readings": {"temperature": 23.5, "humidity": 65.2, "pressure": 1013.25}, "battery_level": 87, "signal_strength": -65, "last_seen": "2024-01-15T14:29:30Z"}}
+{"complex_nested": {"level1": {"level2": {"level3": {"array_of_objects": [{"item": 1, "props": {"a": true, "b": [1, 2, 3]}}, {"item": 2, "props": {"a": false, "b": [4, 5, 6]}}]}}}}}
+{"malformed_but_valid": {"key_with_spaces": "value", "key-with-dashes": "value", "key_with_123_numbers": "value", "CamelCaseKey": "value", "UPPER_CASE_KEY": "value"}}
+{"special_values": {"positive_infinity": "Infinity", "negative_infinity": "-Infinity", "not_a_number": "NaN", "very_long_number": 1234567890123456789}}
+{"encoding_test": {"utf8": "こんにちは", "emoji": "👋🌍💻", "symbols": "©®™€£¥", "math": "∑∏∆∇≈≠≤≥"}}
+{"date_formats": {"iso": "2024-01-15T14:30:00.000Z", "unix_timestamp": 1705327800, "human_readable": "January 15, 2024 2:30 PM UTC"}}
+{"binary_data_base64": "iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVR42mP8/5+hHgAHggJ/PchI7wAAAABJRU5ErkJggg=="}
+{"edge_case_strings": {"empty": "", "whitespace_only": "   ", "newlines": "\n\n\n", "quotes": "\"'`", "backslashes": "\\\\\\", "control_chars": "\u0001\u0002\u0003"}}
