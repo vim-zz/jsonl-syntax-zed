@@ -62,7 +62,7 @@ jsonl-syntax/
 
 ## Contributing
 
-Contributions are welcome. Please see [CONTRIBUTING.md](CONTRIBUTING.md) for guidelines.
+Contributions are welcome.
 
 1. Fork the repository
 2. Create a feature branch
