@@ -1,5 +1,5 @@
-id = "jsonl-syntax"
-name = "JSONL Syntax"
+id = "jsonl"
+name = "JSONL"
 version = "0.1.0"
 schema_version = 1
 authors = ["Ofer Affias <ofer.affias@gmail.com>"]
