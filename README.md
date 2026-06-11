@@ -18,6 +18,7 @@ JSON Lines is a format for storing structured data with one JSON object per line
 - Automatic file detection
 - Tree-sitter JSON parser for accurate highlighting
 - 2-space indentation default
+- Bundled pretty-print formatter
 - Performance optimized for large files
 
 ## Installation
@@ -38,6 +39,15 @@ JSON Lines is a format for storing structured data with one JSON object per line
 
 Open any `.jsonl` or `.ndjson` file in Zed to see syntax highlighting automatically applied.
 
+### Pretty-Print JSONL
+
+Run Zed's `editor: format` command from a `.jsonl` or `.ndjson` file to
+pretty-print JSON Lines buffers with the bundled formatter.
+
+The formatter parses the buffer as a stream of JSON values, so it can format
+both compact JSONL and previously pretty-printed multi-line records. To format
+automatically on save, enable Zed's `format_on_save` setting for JSON Lines.
+
 ## Development
 
 ### Project Structure
@@ -49,8 +59,14 @@ jsonl-syntax/
 │   └── jsonl/
 │       ├── config.toml     # Language settings
 │       └── highlights.scm  # Highlighting rules
+├── server/
+│   └── jsonl-lsp.js        # Bundled formatter language server
+├── src/
+│   └── lib.rs              # Zed extension entrypoint
 ├── sample.jsonl           # Test file
-└── validate.py           # Validation script
+└── tests/
+    ├── jsonl_formatter.test.js
+    └── jsonl_lsp.test.js
 ```
 
 ### Making Changes

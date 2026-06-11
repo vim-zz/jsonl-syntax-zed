@@ -11,6 +11,7 @@ yarn-error.log*
 # Rust build artifacts (if any Rust code is added later)
 target/
 Cargo.lock
+extension.wasm
 
 # Zed-specific
 .zed/
