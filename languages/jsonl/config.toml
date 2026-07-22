@@ -1,5 +1,11 @@
 name = "JSON Lines"
 grammar = "json"
-path_suffixes = ["jsonl", "ndjson"]
+path_suffixes = ["jsonl", "ndjson", "ldjson"]
+autoclose_before = ",]}"
+brackets = [
+    { start = "{", end = "}", close = true, surround = true, newline = true },
+    { start = "[", end = "]", close = true, surround = true, newline = true },
+    { start = "\"", end = "\"", close = true, surround = true, newline = false, not_in = ["string"] },
+]
 tab_size = 2
 hard_tabs = false

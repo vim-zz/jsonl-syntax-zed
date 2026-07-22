@@ -5,6 +5,14 @@ All notable changes to the JSONL Syntax extension will be documented in this fil
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [0.3.0] - 2026-07-22
+
+### Added
+- Bracket auto-close and bracket-matching configuration for JSONL braces, brackets, and quotes
+- Auto-indent query for arrays and objects
+- Structural outline query for per-record navigation in the outline and breadcrumbs views
+- `.ldjson` file extension support
+
 ## [0.2.0] - 2026-06-11
 
 ### Added
