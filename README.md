@@ -66,8 +66,11 @@ jsonl-syntax/
 ├── sample.jsonl           # Test file
 └── tests/
     ├── jsonl_formatter.test.js
+    ├── jsonl_highlights.test.js
     └── jsonl_lsp.test.js
 ```
+
+Run the test suite with `node --test tests/`.
 
 ### Making Changes
 
