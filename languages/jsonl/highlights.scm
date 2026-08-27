@@ -1,7 +1,7 @@
-(pair
-  key: (_) @string.special.key)
-
 (string) @string
+
+(pair
+  key: (string) @property)
 
 (number) @number
 
@@ -11,6 +11,6 @@
   (false)
 ] @constant.builtin
 
-(escape_sequence) @escape
+(escape_sequence) @string.escape
 
 (comment) @comment

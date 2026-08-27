@@ -5,6 +5,22 @@ All notable changes to the JSONL Syntax extension will be documented in this fil
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [Unreleased]
+
+### Fixed
+- `languages/jsonl/highlights.scm` now uses standard tree-sitter capture names
+  (`@property` for object keys, `@string.escape` for escape sequences) instead
+  of the previously used non-standard `@string.special.key` and `@escape`. The
+  query was also reordered so that the per-key rule comes after the global
+  string rule, ensuring keys are colored with `@property` while string values
+  keep `@string`. Result: object keys, string values, numbers and built-in
+  constants now render with four distinct colors instead of every token
+  falling back to the `@string` color.
+- Added `tests/jsonl_highlights.test.js`, which validates that every capture
+  name in `languages/jsonl/highlights.scm` belongs to the official Zed capture
+  set and that the query only references node names declared by the
+  `tree-sitter-json` grammar. Run with `node --test tests/`.
+
 ## [0.2.0] - 2026-06-11
 
 ### Added
